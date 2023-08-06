@@ -36,10 +36,10 @@ function Home() {
            {/* Skills section */}
 
            <div id='skills'>
-               <h1 className='text-center text-4xl  text-[#d12065] font-bold font-vidaloka mt-10'>Skills</h1>
+               <h1 className='text-center text-4xl  text-black font-bold font-vidaloka '>Skills And Technologies</h1>
            </div>
-           <div className='flex mt-20 place-content-center'>
-                <div className='grid grid-cols-2  md:grid-cols-3  text-2xl gap-6  md:gap-20 text-[#d12065] space-x-4 font-bold font-vidaloka'>
+           <div className='flex place-content-center mt-10'>
+                <div className='grid grid-cols-2  md:grid-cols-3  text-2xl gap-2  md:gap-20 text-[#d12065] space-x-4 font-bold font-vidaloka'>
                     <div className='grid mt-10 w-40 bg-white shadow-2xl justify-center text-center p-4 '>
                       <AiFillHtml5 className='text-8xl text-black'/>
                       <h1>HTML5</h1>
@@ -80,25 +80,25 @@ function Home() {
            </div>
 
            {/* projects section */}
-           <Project/>
+           <Project />
 
            {/* Eduction */}
-           <div className='text-center text-4xl font-bold font-vidaloka mt-20  text-[#d12065]'>
+           <div className='text-center text-4xl font-bold font-vidaloka mt-16  text-[#d12065]'>
               <h1>EDUCATION</h1>
            </div>
-           <div className='grid mt-20 mx-4 md:mx-40 font-vidaloka gap-20 divide-y-2'>
+           <div className='grid mt-20 mx-4 md:mx-40 font-vidaloka gap-10 divide-y-2'>
               <div className='gap-8'>
                   <div className='flex justify-between bg-[#d12065] p-2 font-bold rounded-md'>
-                      <h1 className='text-4xl text-white'>Matriculation</h1>
-                      <h1 className='text-4xl text-white'>(2018 – 2019)</h1>
+                      <h1 className='text-2xl md:text-4xl text-white'>Matriculation</h1>
+                      <h1 className='text-3xl md:text-4xl text-white'>(2018 – 2019)</h1>
                   </div>
                   <p className='text-2xl'>High School Khirhar Madhubani  Bihar</p>
                   <p className='text-2xl'>Marks:- 63.20%</p>
               </div>
               <div className='gap-8'>
                   <div className='flex justify-between bg-[#d12065] p-2 font-bold rounded-md'>
-                      <h1 className='text-4xl text-white'>Intermediate</h1>
-                      <h1 className='text-4xl text-white'>(2019  – 2021)</h1>
+                      <h1 className='text-3xl md:text-4xl  text-white'>Intermediate</h1>
+                      <h1 className='text-3xl md:text-4xl text-white'>(2019  – 2021)</h1>
                   </div>
                   <p className='text-2xl'>C.P.P. College, Hisar, Bourhar, Madhubani Bihar</p>
                   <p className='text-2xl'>Category- PCM</p>

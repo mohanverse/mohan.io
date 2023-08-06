@@ -3,21 +3,61 @@ import React from 'react'
 function Project() {
   return (
     <>
-    <div className='text-center mt-32 text-4xl font-bold font-vidaloka text-[#d12065]'>
-         <h1>PROJECTS</h1>
+    <div id='projects' className='grid justify-center space-y-6 p-4 font-vidaloka'>
+       <h1 className='text-center mt-20 text-4xl font-bold font-vidaloka text-[#d12065]'>Project I Have Done</h1>
+        <div className='grid md:flex md:gap-20 space-y-6 '>
+            <div className='bg-white space-y-2 p-6 mt-8 shadow-2xl'>
+                <h1 className='text-2xl font-bold'>Tmperature Converter</h1>
+                <p>Project based on HTML5 CSS3 And Javascript </p>
+                <div className='flex space-x-2 place-content-center'>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32     text-center'><a href="https://github.com/mohanverse/    temp-converter">Github</a></h1>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32 text-center'><a href="https://github.com/mohanverse/temp-converter">Live</a></h1>
+                </div>
+            </div>
+            <div className='bg-white  space-y-2 p-6 shadow-2xl'>
+                <h1 className='text-2xl font-bold'>React Todo Website</h1>
+                <p>Project based on Rect js </p>
+                <div className='flex space-x-2 place-content-center'>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32 text-center'><a href="https://github.com/mohanverse/react-todo">Github</a></h1>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32 text-center'><a href="https://rode-clone-website.vercel.app/">Live</a></h1>
+                </div>
+            </div>
+            <div className='bg-white  space-y-2 p-10 shadow-2xl'>
+                <h1 className='text-2xl font-bold'>React Calculator Web</h1>
+                <p>Project based on Rect js </p>
+                <div className='flex space-x-2 place-content-center'>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32  text-center'><a href="https://github.com/mohanverse/    clc-app-react">Github</a></h1>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32 text-center'><a href="https://github.com/mohanverse/clc-app-react">Live</a></h1>
+                </div>
+            </div>
+        </div>
+        <div className='grid md:flex md:gap-10  space-y-6'>
+            <div className='bg-white p-6  space-y-2 shadow-2xl'>
+                <h1 className='text-2xl font-bold'>SHOFIFY CLONE WEBSITE</h1>
+                <p>Project based on HTML5 CSS3 And TAILWINDCSS </p>
+                <div className='flex space-x-2 place-content-center'>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32  text-center'><a href="https://github.com/mohanverse/    shofify-CLONE-WEBSITE">Github</a></h1>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32  text-center'><a href="https://shofify-clone-website.vercel.app/">Live</a></h1>
+                </div>
+            </div>
+            <div className='bg-white p-6  space-y-2 shadow-2xl'>
+                <h1 className='text-2xl font-bold'>PAYTM CLONE WEBSITE</h1>
+                <p>Project based on HTML5 CSS3 And TAILWINDCSS </p>
+                <div className='flex space-x-2 place-content-center'>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32   text-center'><a href="https://github.com/mohanverse/    paytm-web-clone">Github</a></h1>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-32  text-center'><a href="https://paytm-web-clone.vercel.app/">Live</a></h1>
+                </div>
+            </div>
+            <div className='bg-white p-6  space-y-2 shadow-2xl'>
+                <h1 className='text-2xl font-bold'>And 15 More WebPage</h1>
+                <p>Project based on HTML5 CSS3 And TAILWINDCSS </p>
+                <div className=' grid place-content-center'>
+                    <h1 className='text-xl text-white font-bold py-2 bg-[#d12065] w-64  text-center'><a href="https://github.com/mohanverse">See on the Github</a></h1>
+                </div>
+            </div>
+        </div>
     </div>
-    <div className="py-6  mx-6  md:mx-40 dark:text-gray-50">
-	<div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
-		<img src="https://github.com/mohanverse/RODE-CLONE-WEBSITE/blob/main/screenshots/Screenshot%20(106).png?raw=true" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://github.com/mohanverse/RODE-CLONE-WEBSITE/blob/main/screenshots/Screenshot%20(109).png?raw=true" />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://github.com/mohanverse/RODE-CLONE-WEBSITE/blob/main/screenshots/Screenshot%20(110).png?raw=true" />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://github.com/mohanverse/RODE-CLONE-WEBSITE/blob/main/screenshots/Screenshot%20(111).png?raw=true" />
-		<img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://github.com/mohanverse/RODE-CLONE-WEBSITE/blob/main/screenshots/Screenshot%20(113).png?raw=true" /> 
-	</div>
-</div>
-  <div className='text-center mt-10'>
-     <a href="https://github.com/mohanverse?tab=repositories" className='px-10 py-3 text-3xl text-white bg-black font-bold'>MORE</a>
-  </div>
+    
 
     </>
   )

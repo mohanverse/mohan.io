@@ -3,8 +3,9 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <h1 id="contact" className='text-center mt-32 text-4xl font-bold font-vidaloka text-[#d12065]'>CONTACT US</h1>
-    <div className=" mt-20">
+    <div className='bg-[#cacac8] p-8 mt-8'>
+    <h1 id="contact" className='text-center mt-16 text-4xl font-bold font-vidaloka text-[#d12065]'>CONTACT US</h1>
+    <div className=" mt-10">
     <div className="grid p-8  lg:mx-96">
       <form
         action="https://formspree.io/f/mrgweddd"
@@ -36,9 +37,12 @@ function Contact() {
           autoComplete="off"
           required></textarea>
 
-        <input className='bg-[#d12065] font-bold font-vidaloka md:mx-80 mx-24 w-40 border-[#d12065]  place-content-center text-white px-10 py-2' type="submit" value="send" />
+        <div className='flex place-content-center'>
+            <input className='bg-[#d12065] font-bold font-vidaloka w-40 border-[#d12065] text-white px-10 py-3 rounded-md text-xl' type="submit" value="send" />
+        </div>
       </form>
     </div>
+  </div>
   </div>
     </>
   )
