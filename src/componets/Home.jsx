@@ -34,7 +34,6 @@ function Home() {
            </div>
             
            {/* Skills section */}
-
            <div id='skills'>
                <h1 className='text-center text-4xl  text-[#d12065] font-bold font-vidaloka mt-10'>Skills</h1>
            </div>
