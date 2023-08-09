@@ -24,9 +24,9 @@ function Home() {
     <>
      <div style={divStyle}>
         <div className=''>
-           <div id='Home' className='grid md:flex divide-x-2'>
-                <img data-aos={"fade-up"}  className='h-[950px] md:h-[855px] md:-mt-20' src={myimg1} alt="" />
-                <div data-aos={"fade-left"} className='text-2xl md:text-4xl font-semibold my-10 md:my-60 md:text-start p-4 color-white space-y-8'>
+           <div id='Home' className='grid md:flex divide-x-2 overflow-hidden'>
+                <img className='h-[950px] md:h-[855px] md:-mt-20' src={myimg1} alt="" />
+                <div data-aos={"fade-left"} className='text-2xl md:text-4xl font-semibold my-10 md:my-60 md:text-start p-4 color-white space-y-8 '>
                     <h1 className='bg-[#d12065] text-white p-2 font-aclonica w-1/2 text-center'>ABOUT ME</h1>
                     <h1 className=''>Hello, I am <span className='bg-[#d12065] text-white p-2 font-aclonica'>Mohan Chaudhary</span> Computer Science & Engineering Student </h1>
                     <p className='text-[#576060] font-light text-xl' > I am a driven, hard-working individual who is studying Bachelor of computer science. at<em className='text-[#d12065] font-semibold'> Radharaman Engeering college </em>Bhopal Madhya Pradesh, 
@@ -86,10 +86,10 @@ function Home() {
            <Project />
 
            {/* Eduction */}
-           <div className='text-center text-4xl font-bold font-vidaloka mt-16  text-[#d12065]'>
-              <h1 data-aos={"fade-up"}>EDUCATION</h1>
+           <div className='text-center text-4xl font-bold font-vidaloka mt-16  text-[#d12065] '>
+              <h1 data-aos={"fade-down"}>EDUCATION</h1>
            </div>
-           <div className='grid mt-20 mx-4 md:mx-40 font-vidaloka gap-10 divide-y-2'>
+           <div className='grid mt-20 mx-4 md:mx-40 font-vidaloka gap-10 divide-y-2 overflow-hidden'>
               <div data-aos={"fade-left"} className='gap-8'>
                   <div className='flex justify-between bg-[#d12065] p-2 font-bold rounded-md' >
                       <h1 className='text-2xl md:text-4xl text-white'>Matriculation</h1>
