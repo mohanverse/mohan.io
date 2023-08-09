@@ -6,7 +6,6 @@ import myresume from './mohanverseresume.png'
 function Navbar() {
   return (
     <>
-    <div className='sticky bg-white top-0 '>
     <div className='flex justify-between py-8 mx-4 lg:px-8 '>
         <div className='text-2xl md:text-4xl font-bold'>
            <p className='font-aclonica text-[#d12065]'>Mohan CHAUDHARY</p>
@@ -24,7 +23,6 @@ function Navbar() {
             <a href="https://github.com/mohanverse"><AiFillGithub/></a>
             <a href="https://twitter.com/mohanverse"><AiFillTwitterCircle/></a>
         </div>
-    </div>
     </div>
     </>
   )
