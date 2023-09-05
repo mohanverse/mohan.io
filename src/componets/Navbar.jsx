@@ -1,18 +1,16 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {AiFillLinkedin, AiFillGithub,AiFillTwitterCircle} from "react-icons/ai"
-import myresume from './mohanverseresume.png'
 
 
 function Navbar() {
   return (
     <>
-    <div className='flex justify-between py-8 mx-4 lg:px-8 '>
+    <div className='flex justify-between py-8 lg:px-8 sticky top-0 bg-[#FFF8E8] text-black'>
         <div className='text-2xl md:text-4xl font-bold'>
            <p className='font-aclonica text-[#d12065]'>Mohan CHAUDHARY</p>
         </div>
-        <div className='md:flex hidden justify-between text-[#576060] text-sm font-bold space-x-10'>
+        <div className='md:flex hidden justify-between text-sm font-bold space-x-10'>
             <a href="#Home">PROFILE</a>
-            <a href={myresume} >RESUME</a>
             <a href="#skills">SKILLS</a>
             <a href="#projects">PROJECTS</a>
             <a href="">CERTIFICATE</a>
