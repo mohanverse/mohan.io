@@ -1,5 +1,5 @@
 import React from 'react'
-import myimg1 from './ce1ce4a8-aafa-4a84-a5be-bb9e7361ff68-removebg-preview.png'
+import myimg1 from './images/ce1ce4a8-aafa-4a84-a5be-bb9e7361ff68-removebg-preview.png'
 import Navbar from './Navbar'
 import Contact from './Contact'
 
@@ -10,15 +10,17 @@ import Skills from './Skills'
 function Home() {
   return (
     <>
-     <div className='bg-[#191516] text-[#FFF8E8] mx-2 md:mx-10 lg:mx-20'>
+     <div className='bg-[#191516] text-[#FFF8E8] mx-2 md:mx-8 lg:mx-16'>
         <Navbar/>
         <div className=''>
-           <div id='Home' className='grid xl:flex divide-x-2 justify-center space-x-4'>
+           <div id='Home' className='grid xl:flex divide-x-2 justify-center '>
                 <div className='flex justify-center'>
-                    <img className='h-[500px] md:h-[700px] ' src={myimg1} alt="" />
+                    <img className='h-[500px] md:h-[690px] ' src={myimg1} alt="" />
                 </div>
                 <div className='lg:w-[800px] text-2xl md:text-4xl font-semibold my-10 md:my-60 md:text-start p-4 color-white space-y-8 '>
-                    <h1 className='bg-[#d12065] text-white p-2 font-aclonica w-1/2 text-center'>ABOUT ME</h1>
+                    <div className='flex justify-center md:justify-start'>
+                        <h1 className='bg-[#d12065] text-white p-2 font-aclonica w-1/2 text-center'>ABOUT ME</h1>
+                    </div>
                     <h1 className=''>Hello, I am <span className='bg-[#d12065] text-white p-2 font-aclonica'>Mohan Chaudhary</span> Computer Science & Engineering Student </h1>
                     <p className='text-[#576060] font-light text-xl' > I am a driven, hard-working individual who is studying Bachelor of computer science. at<em className='text-[#d12065] font-semibold'> Radharaman Engeering college </em>Bhopal Madhya Pradesh, 
                     <em className='text-[#d12065] font-semibold'> Full Stack Development  </em> is something I am very passionate about and look forward to furthering my education and experience in the field.</p>
