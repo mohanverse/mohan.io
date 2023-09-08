@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Contact from './Contact'
 
 import {AiFillLinkedin, AiFillGithub,AiFillTwitterCircle,AiFillInstagram} from "react-icons/ai"
+import Skills from './Skills'
 
 
 function Home() {
@@ -27,9 +28,10 @@ function Home() {
            </div>
             
            {/* Skills section */}
+           <Skills/>
 
            {/* Eduction */}
-           <div className='text-center text-4xl font-bold font-vidaloka text-[#d12065] xl:mt-[-100px]'>
+           <div className='text-center text-4xl font-bold font-vidaloka text-[#d12065]'>
               <h1 >EDUCATION</h1>
            </div>
            <div className='divide-x-2' >
@@ -60,8 +62,6 @@ function Home() {
                    <p className='text-2xl'>Category-Computer Science</p>
                    <p className='text-2xl'>Marks:- 7 SGPA</p>
                </div>
-            </div>
-            <div>
             </div>
            </div>
           
