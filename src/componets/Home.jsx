@@ -1,5 +1,5 @@
 import React from 'react'
-import myimg1 from './images/ce1ce4a8-aafa-4a84-a5be-bb9e7361ff68-removebg-preview.png'
+import myimg1 from '../images/ce1ce4a8-aafa-4a84-a5be-bb9e7361ff68-removebg-preview.png'
 import Navbar from './Navbar'
 import Contact from './Contact'
 
